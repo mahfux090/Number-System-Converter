@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            Developed By NimBot 
+        </div>
+        <div class="content">
+            <h2>Number Converter ⛔</h2>
+            <label for="number">Enter a number:</label>
+            <input type="text" id="number" placeholder="Enter a number">
+            <label for="from">From:</label>
+            <select id="from">
+                <option value="binary">Binary</option>
+                <option value="decimal">Decimal</option>
+                <option value="hexadecimal">Hexadecimal</option>
+            </select>
+            <label for="to">To:</label>
+            <select id="to">
+                <option value="binary">Binary</option>
+                <option value="decimal">Decimal</option>
+                <option value="hexadecimal">Hexadecimal</option>
+            </select>
+            <div class="button-container">
+                <button onclick="convert()">Convert</button>
+                <button onclick="reset()">Reset</button>
+            </div> 
+            <div class="result-box">
+            <p id="result"></p>
+       </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!**Baler Code**#
